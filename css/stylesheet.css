@@ -1,0 +1,44 @@
+body {
+		background: url("http://img12.deviantart.net/abe7/i/2010/135/d/a/seamless_metal_texture_smooth_by_hhh316.jpg");
+		background-repeat: repeat repeat;
+		font-family: helvetica;
+		color: white;
+		size: 20;
+		align-self: center;
+		text-shadow: .9
+}
+
+header {
+		text-align: center;
+		background: rgba(0, 0, 0, .7) center;
+		background-size: cover;
+		color: white;
+		border: 4px solid;
+		border-color: rgba(0, 0, 0, .8);
+		border-radius: 12px;
+}
+
+label > input{ /* HIDE RADIO */
+  display:none;
+}
+label > input + img{
+	max-width: 350px;
+	margin: 10px;
+	border: 7px solid;
+	border-color: rgba(31, 122, 153, .8);
+	border-radius: 60px;
+  cursor:pointer;
+}
+label > input:checked + img{
+	border-color: orange;
+	border-style: dotted;
+}
+img:hover {
+	border-color: orange;
+	border-style: dotted;
+}
+
+.center {
+  margin: auto;
+}
+## On click change border color to shocking color
