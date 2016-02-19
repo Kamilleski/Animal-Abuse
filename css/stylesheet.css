@@ -1,33 +1,31 @@
 body {
-		background: url("http://img12.deviantart.net/abe7/i/2010/135/d/a/seamless_metal_texture_smooth_by_hhh316.jpg");
-		background-repeat: repeat repeat;
-		font-family: helvetica;
-		color: white;
-		size: 20;
-		align-self: center;
-		float: center;
+	background: url("http://img12.deviantart.net/abe7/i/2010/135/d/a/seamless_metal_texture_smooth_by_hhh316.jpg");
+	background-repeat: repeat repeat;
+	font-family: helvetica;
+	color: white;
+	size: 20;
+	align-self: center;
+	float: center;
 }
-
 header {
-		text-align: center;
-		background: rgba(0, 0, 0, .7) center;
-		background-size: cover;
-		color: white;
-		border: 4px solid;
-		border-color: rgba(0, 0, 0, .8);
-		border-radius: 12px;
+	text-align: center;
+	background: rgba(0, 0, 0, .7) center;
+	background-size: cover;
+	color: white;
+	border: 4px solid;
+	border-color: rgba(0, 0, 0, .8);
+	border-radius: 12px;
 }
 input[type="radio"]{
-    visibility:hidden;
+  visibility:hidden;
 }
 label {
 	display: inline-block;
 	float: center
 }
-
 label > input + img, img{
-	max-width: 250px;
-	width: 100%;
+	max-width: 17vw;
+	width: auto;
 	height: auto;
 	margin: 0px;
 	float: center;
@@ -47,7 +45,6 @@ figure {
 	padding: 0px;
 	float: center;
 }
-
 figcaption {
 	text-align: center;
 	font-size: 20px;
